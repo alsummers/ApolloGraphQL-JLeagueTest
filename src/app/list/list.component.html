@@ -1,8 +1,9 @@
-<div *ngFor="let member of members | async">
+<div class="container" *ngFor="let member of members | async">
   <div class="card" style="width: 100%; margin-top: 10px">
     <div class="card-body">
-      <h2 class="card-title">Name: {{member.name}}</h2>
+      <h2 class="card-title">{{member.name}}</h2>
       <h3 class="card-subtitle mb-2 text-muted">Alias: {{member.alias}}</h3>
+      <p class ="card-text">Age: {{member.age}}</p>
       <p class="card-text">Race: {{member.race}}</p>
     </div>
   </div>

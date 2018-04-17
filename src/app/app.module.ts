@@ -24,8 +24,8 @@ import { ListComponent } from './list/list.component';
     NgbModule.forRoot()
     
   ],
+  bootstrap: [AppComponent],
   providers: [],
-  bootstrap: [AppComponent, ListComponent]
 })
 export class AppModule { 
   constructor(
