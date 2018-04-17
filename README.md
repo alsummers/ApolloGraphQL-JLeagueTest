@@ -7,7 +7,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 needed to add 'esnext' to tsconfig files to complile async
 graphql has that issue in compiling ts files.
 
-##Apollo Launchpad
 lauchpad file: https://launchpad.graphql.com/w5jq4wkwrz
 endpoint url: https://w5jq4wkwrz.lp.gql.zone/graphql
 
